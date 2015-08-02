@@ -1,0 +1,28 @@
+.cell-container {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #766;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.cell {
+	height: 90px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #766;
+	background-color: #dcb;
+	border-radius: 5px;
+	padding: 0px !important;
+}
+
+.cell p {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #F8F8F8;
+	position: relative;
+	top: 14%;
+}

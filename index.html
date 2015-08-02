@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="cool.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script src="https://fb.me/react-0.13.3.js"></script>
+	<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+	<script type="text/javascript" src="results.js"></script>
+	<script type="text/jsx" src="2048_render.jsx"></script>
+	<script type="text/jsx" src="CellsGroup.jsx"></script>
+	<script type="text/jsx" src="Cells.jsx"></script>
+	<script type="text/jsx">
+		var playboard = React.createElement(board);
+		React.render(playboard, document.getElementById('react-container'));
+	</script>
+	<script>
+		$(document).ready(function() {
+			myreset(b);
+		});
+	</script>
+</head>
+<body>
+	<div class="cool container" id="somethingcool">
+		<h2 id="heading">Something Cool</h2>
+		<div id="react-container"></div>
+	</div>
+</body>
+</html>
