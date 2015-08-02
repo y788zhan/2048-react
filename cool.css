@@ -1,3 +1,8 @@
+h2 {
+	margin: auto;
+	text-align: center;
+}
+
 .cell-container {
 	padding-left: 0px;
 	padding-right: 0px;

@@ -50,7 +50,7 @@ var board = React.createClass({
 				<div className="cellGroup col-md-4">
 					<CellsGroup source={results}/>
 					{gameover && (
-						<h4>Game Over</h4>
+						<h4>Game over</h4>
 					)}
 					<p>Press SPACE to restart.</p>
 				</div>
