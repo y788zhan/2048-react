@@ -52,7 +52,7 @@ var board = React.createClass({
 					{gameover && (
 						<h4>Game Over</h4>
 					)}
-					<p>Press ENTER to restart</p>
+					<p>Press SPACE to restart</p>
 				</div>
 				<div className="col-md-4"></div>
 			</div>
